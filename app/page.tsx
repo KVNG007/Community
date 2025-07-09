@@ -18,6 +18,7 @@ import {
 import { FaFlag } from "react-icons/fa";
 import { FiClipboard, FiEdit3 } from "react-icons/fi";
 import { HiOutlineDuplicate } from "react-icons/hi";
+import { BsThreeDotsVertical } from "react-icons/bs";
 
 let nextId = 5;
 
@@ -125,6 +126,7 @@ export default function Home() {
                 >
                   {getPageIcon(item.name)}
                   {item.name}
+                  <BsThreeDotsVertical color="grey" className="ml-1" />
                 </button>
 
               </DropdownMenuTrigger>
